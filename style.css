@@ -1,0 +1,57 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;  
+}
+body{
+   background-color: #774e24;
+   color: #f0f0f5;
+   font-variant: small-caps;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quoteCenter{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+h1{
+   text-align: center;
+   font-size: x-large;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.quoteFrame{
+   background-color: #774e24;
+   margin-top: 30px;
+   width: 300px;
+   height: auto;
+   padding: 20px;
+   border-radius: 20px;
+   box-shadow: -5px 3px 15px  #a37d57, 5px -5px 15px #351b02;
+}
+
+.quote{
+   padding: 10px;
+   height: auto;
+   margin: auto;
+   font-size: larger;
+}
+
+.author{
+   text-align: end;
+}
+.btn{
+   border-radius: 20px;
+   padding: 10px 20px;
+   cursor: pointer;
+   background-color: #774e24;
+   color: inherit;
+   border: none;
+   box-shadow: -5px 3px 15px  #a37d57, 5px -5px 15px #351b02;
+   display: table;
+   margin: 20px auto;
+   font-variant: small-caps;
+}
