@@ -43,6 +43,9 @@ h1{
 .author{
    text-align: end;
 }
+.zino{
+   text-align: center;
+}
 .btn{
    border-radius: 20px;
    padding: 10px 20px;
